@@ -22,3 +22,125 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 [0m16:17:12.465048 [info ] [MainThread]: Setting up your profile.
+[0m16:37:43.681992 [info ] [MainThread]: Profile airbnb_dbt written to C:\Users\jiawe\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:37:43.685509 [debug] [MainThread]: Command `dbt init` succeeded at 16:37:43.685509 after 1231.51 seconds
+[0m16:37:43.686510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FADBEF2790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FADDF46790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FADDFA3940>]}
+[0m16:37:43.687508 [debug] [MainThread]: Flushing usage events
+[0m16:37:44.347145 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:37:53.955119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203F38D2790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203F5926A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203F5926820>]}
+
+
+============================== 16:37:53.957216 | fa6cccc6-832d-48d9-9737-c96fb6a8c3cc ==============================
+[0m16:37:53.957216 [info ] [MainThread]: Running with dbt=1.9.0
+[0m16:37:53.957216 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jiawe\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:37:53.973225 [info ] [MainThread]: dbt version: 1.9.0
+[0m16:37:53.973225 [info ] [MainThread]: python version: 3.9.5
+[0m16:37:53.973225 [info ] [MainThread]: python path: C:\Python39\python.exe
+[0m16:37:53.974665 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m16:37:54.599083 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m16:37:54.606607 [info ] [MainThread]: Using profiles dir at C:\Users\jiawe\.dbt
+[0m16:37:54.607606 [info ] [MainThread]: Using profiles.yml file at C:\Users\jiawe\.dbt\profiles.yml
+[0m16:37:54.607606 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\jiawe\OneDrive\Desktop\airbnb-dbt\dbt_project.yml
+[0m16:37:54.608603 [info ] [MainThread]: Configuration:
+[0m16:37:54.609606 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:37:54.610603 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:37:54.611772 [info ] [MainThread]: Required dependencies:
+[0m16:37:54.612278 [debug] [MainThread]: Executing "git --help"
+[0m16:37:54.651785 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:37:54.651785 [debug] [MainThread]: STDERR: "b''"
+[0m16:37:54.651785 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:37:54.653292 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:37:54.654298 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:37:54.654991 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_crash_course", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m16:37:54.656079 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\jiawe\OneDrive\Desktop\airbnb-dbt\dbt_project.yml> not found
+
+[0m16:37:54.659073 [debug] [MainThread]: Command `dbt debug` failed at 16:37:54.659073 after 0.78 seconds
+[0m16:37:54.660076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203F38D2790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203F59D5D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002038655DD00>]}
+[0m16:37:54.660076 [debug] [MainThread]: Flushing usage events
+[0m16:37:55.289562 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:38:04.918091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9DA172790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9DC1C6A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9DC1C6820>]}
+
+
+============================== 16:38:04.925582 | 30c12151-39d7-46d3-8943-d46e95aecc63 ==============================
+[0m16:38:04.925582 [info ] [MainThread]: Running with dbt=1.9.0
+[0m16:38:04.926499 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jiawe\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:38:04.939112 [info ] [MainThread]: dbt version: 1.9.0
+[0m16:38:04.940029 [info ] [MainThread]: python version: 3.9.5
+[0m16:38:04.940029 [info ] [MainThread]: python path: C:\Python39\python.exe
+[0m16:38:04.941025 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m16:38:05.548329 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m16:38:05.554036 [info ] [MainThread]: Using profiles dir at C:\Users\jiawe\.dbt
+[0m16:38:05.555090 [info ] [MainThread]: Using profiles.yml file at C:\Users\jiawe\.dbt\profiles.yml
+[0m16:38:05.555996 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\jiawe\OneDrive\Desktop\airbnb-dbt\dbt_project.yml
+[0m16:38:05.557124 [info ] [MainThread]: Configuration:
+[0m16:38:05.558606 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:38:05.559991 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:38:05.562259 [info ] [MainThread]: Required dependencies:
+[0m16:38:05.563261 [debug] [MainThread]: Executing "git --help"
+[0m16:38:05.601714 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:38:05.601714 [debug] [MainThread]: STDERR: "b''"
+[0m16:38:05.603296 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:38:05.603296 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:38:05.604306 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:38:05.605303 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_crash_course", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m16:38:05.605303 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\jiawe\OneDrive\Desktop\airbnb-dbt\dbt_project.yml> not found
+
+[0m16:38:05.606302 [debug] [MainThread]: Command `dbt debug` failed at 16:38:05.606302 after 0.77 seconds
+[0m16:38:05.607302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9DA172790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9DC274D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A9ECDFDD00>]}
+[0m16:38:05.607302 [debug] [MainThread]: Flushing usage events
+[0m16:38:06.249023 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:38:25.046807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017FA0A12790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017FA2A66A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017FA2A66820>]}
+
+
+============================== 16:38:25.049899 | 9704ce3b-10c3-4727-a8ce-44c03d96537f ==============================
+[0m16:38:25.049899 [info ] [MainThread]: Running with dbt=1.9.0
+[0m16:38:25.050809 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\jiawe\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:38:25.064424 [info ] [MainThread]: dbt version: 1.9.0
+[0m16:38:25.065828 [info ] [MainThread]: python version: 3.9.5
+[0m16:38:25.065828 [info ] [MainThread]: python path: C:\Python39\python.exe
+[0m16:38:25.066836 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m16:38:25.648088 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m16:38:25.655157 [info ] [MainThread]: Using profiles dir at C:\Users\jiawe\.dbt
+[0m16:38:25.656157 [info ] [MainThread]: Using profiles.yml file at C:\Users\jiawe\.dbt\profiles.yml
+[0m16:38:25.657128 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\jiawe\OneDrive\Desktop\airbnb-dbt\dbt_project.yml
+[0m16:38:25.657885 [info ] [MainThread]: Configuration:
+[0m16:38:25.658628 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:38:25.659114 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:38:25.660677 [info ] [MainThread]: Required dependencies:
+[0m16:38:25.661654 [debug] [MainThread]: Executing "git --help"
+[0m16:38:25.755607 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:38:25.755607 [debug] [MainThread]: STDERR: "b''"
+[0m16:38:25.756843 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:38:25.756843 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:38:25.757848 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:38:25.757848 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_crash_course", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m16:38:25.757848 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\jiawe\OneDrive\Desktop\airbnb-dbt\dbt_project.yml> not found
+
+[0m16:38:25.759343 [debug] [MainThread]: Command `dbt debug` failed at 16:38:25.759343 after 0.79 seconds
+[0m16:38:25.760348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017FA0A12790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017FA2B14D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017FB369DD00>]}
+[0m16:38:25.760348 [debug] [MainThread]: Flushing usage events
+[0m16:38:26.372235 [debug] [MainThread]: An error was encountered while trying to flush usage events
