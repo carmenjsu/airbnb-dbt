@@ -1,0 +1,4 @@
+models:
+  - name: sources
+    config:
+      materialized: table

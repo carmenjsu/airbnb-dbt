@@ -1,1 +1,0 @@
-select * from AIRBNB.STAGING.SRC_LISTINGS
