@@ -1,0 +1,13 @@
+models:
+  - name: src_bookings
+    description: "This table contains all the booking information for Airbnb listings."
+    config:
+      materialized: table
+  - name: src_hosts
+    description: "This table contains all the host information for Airbnb listings."
+    config:
+      materialized: table
+  - name: src_listings
+    description: "This table contains all the listing information for Airbnb listings."
+    config:
+      materialized: table

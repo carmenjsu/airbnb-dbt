@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('staging', 'src_bookings') }}
