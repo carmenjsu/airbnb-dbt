@@ -1,1 +1,1 @@
-select * from airbnb_dbt.staging.listings limit 100;
+select * from staging.src_listings limit 100
