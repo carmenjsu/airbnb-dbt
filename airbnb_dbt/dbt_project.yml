@@ -33,5 +33,7 @@ models:
     sources:       # this is the name of the directory where our models are located
       +materialized: view 
       +schema: sources    
-
+    marts:
+      +materialized: table
+      +schema: marts
     
